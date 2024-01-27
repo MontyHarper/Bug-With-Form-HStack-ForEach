@@ -53,6 +53,8 @@ struct ContentView: View {
                                 numbers1.insert(number)
                             }
                         }
+ // This also fixes the problem.
+ //                       .buttonStyle(.plain)
                     }
                 }
                 HStack {
